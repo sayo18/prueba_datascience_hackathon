@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e8c823472685e75b449ca90ca67fcb3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7e8c823472685e75b449ca90ca67fcb3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7e8c823472685e75b449ca90ca67fcb3 = L.map(
+                "map_7e8c823472685e75b449ca90ca67fcb3",
+                {
+                    center: [41.39998721168731, 2.162522198996516],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_df4c6f6964a21d6304e3541c32ef3706 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_df4c6f6964a21d6304e3541c32ef3706.addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var marker_acbf6626aa65f5a76f6d879aca10159a = L.marker(
+                [41.38187038007101, 2.179048208325444],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_19f02a9cb38e76dceb7262004b6bf53d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acbf6626aa65f5a76f6d879aca10159a.setIcon(icon_19f02a9cb38e76dceb7262004b6bf53d);
+        
+    
+        var popup_73bcea8410d0a493d4edc141324cab97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee836b0d98c5b316b73bb0e0d2c99a3d = $(`<div id="html_ee836b0d98c5b316b73bb0e0d2c99a3d" style="width: 100.0%; height: 100.0%;">Ciutat Vella - 507 accidentes</div>`)[0];
+                popup_73bcea8410d0a493d4edc141324cab97.setContent(html_ee836b0d98c5b316b73bb0e0d2c99a3d);
+            
+        
+
+        marker_acbf6626aa65f5a76f6d879aca10159a.bindPopup(popup_73bcea8410d0a493d4edc141324cab97)
+        ;
+
+        
+    
+    
+            var marker_99db7ec071fb4b348fca88719e95e467 = L.marker(
+                [41.39358716899999, 2.1593712029230767],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_126aff78989bd9b27e119c493d648f51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99db7ec071fb4b348fca88719e95e467.setIcon(icon_126aff78989bd9b27e119c493d648f51);
+        
+    
+        var popup_bc4c909f2ff9d9635627fda0933ea959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17690b226d4730d53dfa0912f155e41f = $(`<div id="html_17690b226d4730d53dfa0912f155e41f" style="width: 100.0%; height: 100.0%;">Desconegut - 104 accidentes</div>`)[0];
+                popup_bc4c909f2ff9d9635627fda0933ea959.setContent(html_17690b226d4730d53dfa0912f155e41f);
+            
+        
+
+        marker_99db7ec071fb4b348fca88719e95e467.bindPopup(popup_bc4c909f2ff9d9635627fda0933ea959)
+        ;
+
+        
+    
+    
+            var marker_0b535447c4d14a364bb2f79301acdc89 = L.marker(
+                [41.39180333082842, 2.164564882747403],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_d5e0a31e71a1c21c620dbfb62a2342b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b535447c4d14a364bb2f79301acdc89.setIcon(icon_d5e0a31e71a1c21c620dbfb62a2342b4);
+        
+    
+        var popup_b87911b2a8d8a4d727866f5034f7e994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64ee018ba44b7a1902a876e258edd848 = $(`<div id="html_64ee018ba44b7a1902a876e258edd848" style="width: 100.0%; height: 100.0%;">Eixample - 2407 accidentes</div>`)[0];
+                popup_b87911b2a8d8a4d727866f5034f7e994.setContent(html_64ee018ba44b7a1902a876e258edd848);
+            
+        
+
+        marker_0b535447c4d14a364bb2f79301acdc89.bindPopup(popup_b87911b2a8d8a4d727866f5034f7e994)
+        ;
+
+        
+    
+    
+            var marker_106add88b74c92ab70be563dc5a932ff = L.marker(
+                [41.407934574023045, 2.1551809992050694],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_7b2029d3fb38288ff9fac9bfb4355a3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_106add88b74c92ab70be563dc5a932ff.setIcon(icon_7b2029d3fb38288ff9fac9bfb4355a3c);
+        
+    
+        var popup_8eb7123ff45720e7a660c0813e986de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9531dbbfbfa04d6f0b21a457ada41d6d = $(`<div id="html_9531dbbfbfa04d6f0b21a457ada41d6d" style="width: 100.0%; height: 100.0%;">Gràcia - 434 accidentes</div>`)[0];
+                popup_8eb7123ff45720e7a660c0813e986de2.setContent(html_9531dbbfbfa04d6f0b21a457ada41d6d);
+            
+        
+
+        marker_106add88b74c92ab70be563dc5a932ff.bindPopup(popup_8eb7123ff45720e7a660c0813e986de2)
+        ;
+
+        
+    
+    
+            var marker_9ad0cb800cdfd3947b051fb27cd2c78d = L.marker(
+                [41.42496501903686, 2.1581686426344087],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_6aff0d16132034b1916a038cdcce7bd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9ad0cb800cdfd3947b051fb27cd2c78d.setIcon(icon_6aff0d16132034b1916a038cdcce7bd4);
+        
+    
+        var popup_e54f64ec81dc869b6125b51a1ead6a9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9befe8e4f83bc3a09446548158de383f = $(`<div id="html_9befe8e4f83bc3a09446548158de383f" style="width: 100.0%; height: 100.0%;">Horta-Guinardó - 651 accidentes</div>`)[0];
+                popup_e54f64ec81dc869b6125b51a1ead6a9d.setContent(html_9befe8e4f83bc3a09446548158de383f);
+            
+        
+
+        marker_9ad0cb800cdfd3947b051fb27cd2c78d.bindPopup(popup_e54f64ec81dc869b6125b51a1ead6a9d)
+        ;
+
+        
+    
+    
+            var marker_85a69ec5511ed74866fd6a8d41eb32e8 = L.marker(
+                [41.38658733202443, 2.124618562755725],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_29e674e7739fa237c7c483d547addef9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85a69ec5511ed74866fd6a8d41eb32e8.setIcon(icon_29e674e7739fa237c7c483d547addef9);
+        
+    
+        var popup_0fc05cc84dfe149de123c7c188ebc9d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aabe17fcd7b8c7ad9b476eef8cd21eb9 = $(`<div id="html_aabe17fcd7b8c7ad9b476eef8cd21eb9" style="width: 100.0%; height: 100.0%;">Les Corts - 655 accidentes</div>`)[0];
+                popup_0fc05cc84dfe149de123c7c188ebc9d0.setContent(html_aabe17fcd7b8c7ad9b476eef8cd21eb9);
+            
+        
+
+        marker_85a69ec5511ed74866fd6a8d41eb32e8.bindPopup(popup_0fc05cc84dfe149de123c7c188ebc9d0)
+        ;
+
+        
+    
+    
+            var marker_e13ceb41d4b69624fd612937008eafab = L.marker(
+                [41.44067875002846, 2.1760092561518025],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_59d93bfa19a3ce45d7121a680ac40502 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e13ceb41d4b69624fd612937008eafab.setIcon(icon_59d93bfa19a3ce45d7121a680ac40502);
+        
+    
+        var popup_6faa1ccc63a46b18a65763ee2cb00c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f74d6b2ebf6e8f518679e2cf5aace0f6 = $(`<div id="html_f74d6b2ebf6e8f518679e2cf5aace0f6" style="width: 100.0%; height: 100.0%;">Nou Barris - 527 accidentes</div>`)[0];
+                popup_6faa1ccc63a46b18a65763ee2cb00c74.setContent(html_f74d6b2ebf6e8f518679e2cf5aace0f6);
+            
+        
+
+        marker_e13ceb41d4b69624fd612937008eafab.bindPopup(popup_6faa1ccc63a46b18a65763ee2cb00c74)
+        ;
+
+        
+    
+    
+            var marker_c7e432d00b2ce20124b7506a5d6ca822 = L.marker(
+                [41.43457634538562, 2.19279722125817],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_ad01b5db805d3b64d624d41e24a60bb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7e432d00b2ce20124b7506a5d6ca822.setIcon(icon_ad01b5db805d3b64d624d41e24a60bb6);
+        
+    
+        var popup_9ceed8bd8324a571f4f5d4e269fe2110 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712447a0a13795fa4299f78d43414982 = $(`<div id="html_712447a0a13795fa4299f78d43414982" style="width: 100.0%; height: 100.0%;">Sant Andreu - 612 accidentes</div>`)[0];
+                popup_9ceed8bd8324a571f4f5d4e269fe2110.setContent(html_712447a0a13795fa4299f78d43414982);
+            
+        
+
+        marker_c7e432d00b2ce20124b7506a5d6ca822.bindPopup(popup_9ceed8bd8324a571f4f5d4e269fe2110)
+        ;
+
+        
+    
+    
+            var marker_dd2aea5a7b54d1c8b0e587a651e4bd23 = L.marker(
+                [41.406778716415346, 2.197337547275959],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_40323b481e5c66c1a2eb26a3280541ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd2aea5a7b54d1c8b0e587a651e4bd23.setIcon(icon_40323b481e5c66c1a2eb26a3280541ed);
+        
+    
+        var popup_530bbabca71a5ab6760e3a173a152c34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb9d34cd0f5aac7cdd166a8bd15a692 = $(`<div id="html_bbb9d34cd0f5aac7cdd166a8bd15a692" style="width: 100.0%; height: 100.0%;">Sant Martí - 1069 accidentes</div>`)[0];
+                popup_530bbabca71a5ab6760e3a173a152c34.setContent(html_bbb9d34cd0f5aac7cdd166a8bd15a692);
+            
+        
+
+        marker_dd2aea5a7b54d1c8b0e587a651e4bd23.bindPopup(popup_530bbabca71a5ab6760e3a173a152c34)
+        ;
+
+        
+    
+    
+            var marker_38d5afff5f98750573be2a4a9be74d10 = L.marker(
+                [41.36509272365933, 2.1441078100995807],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_9520a555d6ae669aac765a71164639c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38d5afff5f98750573be2a4a9be74d10.setIcon(icon_9520a555d6ae669aac765a71164639c4);
+        
+    
+        var popup_4a198a2756a371f0eafc55b9e8a34e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ad8d572dd2311e69365c04b64c4b6b9 = $(`<div id="html_4ad8d572dd2311e69365c04b64c4b6b9" style="width: 100.0%; height: 100.0%;">Sants-Montjuïc - 954 accidentes</div>`)[0];
+                popup_4a198a2756a371f0eafc55b9e8a34e6f.setContent(html_4ad8d572dd2311e69365c04b64c4b6b9);
+            
+        
+
+        marker_38d5afff5f98750573be2a4a9be74d10.bindPopup(popup_4a198a2756a371f0eafc55b9e8a34e6f)
+        ;
+
+        
+    
+    
+            var marker_6a3d90050d770c0c22bdae342b320ffa = L.marker(
+                [41.40206795389048, 2.1344701331463667],
+                {}
+            ).addTo(map_7e8c823472685e75b449ca90ca67fcb3);
+        
+    
+            var icon_e4928f9619b4dac49caea37751bea767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a3d90050d770c0c22bdae342b320ffa.setIcon(icon_e4928f9619b4dac49caea37751bea767);
+        
+    
+        var popup_c4611d3c1848088b811d82a1cabd0e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb23f795f4f01bb21bf220e36f96f3f = $(`<div id="html_dcb23f795f4f01bb21bf220e36f96f3f" style="width: 100.0%; height: 100.0%;">Sarrià-Sant Gervasi - 977 accidentes</div>`)[0];
+                popup_c4611d3c1848088b811d82a1cabd0e3a.setContent(html_dcb23f795f4f01bb21bf220e36f96f3f);
+            
+        
+
+        marker_6a3d90050d770c0c22bdae342b320ffa.bindPopup(popup_c4611d3c1848088b811d82a1cabd0e3a)
+        ;
+
+        
+    
+</script>
+</html>
