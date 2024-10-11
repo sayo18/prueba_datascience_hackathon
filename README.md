@@ -27,8 +27,8 @@ En cuanto a los resultados de los tres modelos:
 
 *   Predicción del número de accidentes por mes:
 <br>Utiliza el modelo de regresión lineal, y se predijo el número de accidentes por mes basado en la tendencia temporal. Los resultados fueron:
-**Mean Squared Error (MSE):** 7289.43
-**R² Score:** -1.36
+<br>**Mean Squared Error (MSE):** 7289.43
+<br>**R² Score:** -1.36
 <br>El modelo muestra un enorme error, esto significa que el número de accidentes no sigue una tendencia simple lineal. Se ha imprimido un gráfico en donde nos muestra los datos reales,los puntos azules, que son los datos observados del número de accidentes por mes, y los puntos rojos son los valores predichos por el modelo.
 
 
